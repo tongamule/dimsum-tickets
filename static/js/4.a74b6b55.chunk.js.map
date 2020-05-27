@@ -1,0 +1,1 @@
+{"version":3,"sources":["NotFound.js"],"names":["NotFound"],"mappings":"gGAAA,2BAIeA,UAFE,kBAAM","file":"static/js/4.a74b6b55.chunk.js","sourcesContent":["import React from \"react\";\n\nconst NotFound = () => <h1>PATH NOT FOUND</h1>;\n\nexport default NotFound;\n"],"sourceRoot":""}
