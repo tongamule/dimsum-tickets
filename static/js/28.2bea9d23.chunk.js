@@ -1,0 +1,2 @@
+(this.webpackJsonpreact=this.webpackJsonpreact||[]).push([[28],{206:function(e,r,a){"use strict";a.r(r),r.default=[{property:"name",label:"Name",sortable:!0,resizable:!0},{property:"owner",label:"Owner",resizable:!0},{property:"salary",label:"Salary",searchable:!0,resizable:!0},{property:"monthly",label:"Monthly",resizable:!0},{property:"overtime",label:"Overtime",resizable:!0}]}}]);
+//# sourceMappingURL=28.2bea9d23.chunk.js.map
