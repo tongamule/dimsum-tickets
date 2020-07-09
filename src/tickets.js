@@ -96,6 +96,10 @@ export default [
         ...getDefaults('PUI-2690'),
         path: 'TreeView/PUI-2690',
       },
+      {
+        ...getDefaults('PUI-3404'),
+        path: 'TreeView/PUI-3404',
+      },
     ],
   },
   {
