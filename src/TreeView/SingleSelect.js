@@ -7,7 +7,7 @@ import {
 } from '@elliemae/ds-treeview';
 import Folder from '@elliemae/ds-icons/Folder';
 import FilePdf from '@elliemae/ds-icons/FilePdf';
-import nodes from './nodes';
+import { deepNodes } from './nodes';
 // import { TooltipTextProvider } from "@elliemae/ds-basic/TruncatedTooltipText";
 // import renderToolbar from "./renderToolbar";
 
@@ -16,7 +16,7 @@ const onItemClick = (item) => {
 };
 
 const Overview = () => {
-  const [data, setData] = useState(nodes);
+  const [data, setData] = useState(deepNodes);
   const ref = useRef(null);
 
   const expandAll = () => {
@@ -42,7 +42,7 @@ const Overview = () => {
       onItemClick={onItemClick}
       plugins={[SelectablePluginTree]}
       // renderToolbar={renderToolbar}
-      // showChildrenAmount
+      showChildrenAmount
       // sortable
       // width={400}
     />
