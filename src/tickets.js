@@ -77,6 +77,7 @@ export default [
       getDefaults('TreeView/SingleSelect'),
       getDefaults('TreeView/LotsOfData'),
       getDefaults('TreeView/ToggleExpand'),
+      getDefaults('TreeView/DragAndDrop'),
       {
         ...getDefaults('InModal'),
         type: 'group',
