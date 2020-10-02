@@ -71,7 +71,7 @@ export const modifiedNodes = [
   },
 ];
 
-export const deepNodes = [
+export const getDeepNodes = () => [
   getNode({
     children: [
       getNode({ children: [] }),

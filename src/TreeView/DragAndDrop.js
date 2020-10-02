@@ -6,7 +6,15 @@ import {
 } from "@elliemae/ds-treeview";
 import Folder from "@elliemae/ds-icons/Folder";
 import FilePdf from "@elliemae/ds-icons/FilePdf";
-import nodes from './nodes';
+import { getDeepNodes } from './nodes';
+
+const nodes = [
+  ...getDeepNodes(),
+  ...getDeepNodes(),
+  ...getDeepNodes(),
+  ...getDeepNodes(),
+  ...getDeepNodes(),
+]
 
 const onItemClick = item => {
   console.log(111, item);

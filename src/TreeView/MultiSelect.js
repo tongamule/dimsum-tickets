@@ -7,7 +7,7 @@ import {
 } from '@elliemae/ds-treeview';
 import Folder from '@elliemae/ds-icons/Folder';
 import FilePdf from '@elliemae/ds-icons/FilePdf';
-import { deepNodes } from './nodes';
+import { getDeepNodes } from './nodes';
 // import { TooltipTextProvider } from "@elliemae/ds-basic/TruncatedTooltipText";
 // import renderToolbar from "./renderToolbar";
 
@@ -16,7 +16,7 @@ const onItemClick = (item) => {
 };
 
 const Overview = () => {
-  const [data, setData] = useState(deepNodes);
+  const [data, setData] = useState(getDeepNodes());
   const ref = useRef(null);
 
   const expandAll = () => {
