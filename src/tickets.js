@@ -45,6 +45,11 @@ export default [
     children: [getDefaults('Date/PUI-4076')],
   },
   {
+    ...getDefaults('DateRange'),
+    type: 'group',
+    children: [getDefaults('DateRange/TypingDate')],
+  },
+  {
     ...getDefaults('TextBox'),
     type: 'group',
     children: [getDefaults('TextBox/example')],
