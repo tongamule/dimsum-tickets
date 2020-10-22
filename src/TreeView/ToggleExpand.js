@@ -17,8 +17,9 @@ const ToggleExpand = (props) => {
   const instanceRef = useRef(null);
   const [searchQuery, setSearchQuery] = useState('');
 
-  const toggleExpandAll = () =>
+  const toggleExpandAll = () => {
     instanceRef.current.actions.toggleExpandAll();
+  };
 
   useEffect(() => {
     toggleExpandAll();
